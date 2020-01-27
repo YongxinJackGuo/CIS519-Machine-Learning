@@ -1,6 +1,6 @@
-HW0: 
-    1. Escaping The Room: DFS(Depth-first Search) Algorithm + Recursion 
-    2.Titanic Crew Data: Pandas Data Manipulation
+HW0:\ 
+    1. Escaping The Room: DFS(Depth-first Search) Algorithm + Recursion\ 
+    2.Titanic Crew Data: Pandas Data Manipulation\
 
 train.csv: Titanic Crew Data
 
