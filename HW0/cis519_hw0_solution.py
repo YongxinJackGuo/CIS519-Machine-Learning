@@ -121,22 +121,28 @@ def CompletePath(s, w, h) -> str:
 # 
 # 
 
-# In[140]:
+# In[146]:
+
+
+import numpy as np
+import pandas as pd
+
+
+# In[147]:
 
 
 # Read in the datafile using Pandas
 
-
 df = pd.DataFrame(pd.read_csv('train.csv')) # read in the file # # TODO # #
 
 
-# In[141]:
+# In[148]:
 
 
 # !wget https://github.com/rsk2327/CIS519/blob/master/train.csv
 
 
-# In[145]:
+# In[149]:
 
 
 def getMissingRatio(inputDf):
@@ -168,7 +174,7 @@ def getMissingRatio(inputDf):
 # display(getMissingRatio(df))
 
 
-# In[143]:
+# In[150]:
 
 
 def convertToBinary(inputDf, feature):
