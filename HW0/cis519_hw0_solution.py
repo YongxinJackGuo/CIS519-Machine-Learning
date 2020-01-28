@@ -121,14 +121,14 @@ def CompletePath(s, w, h) -> str:
 # 
 # 
 
-# In[146]:
+# In[222]:
 
 
 import numpy as np
 import pandas as pd
 
 
-# In[147]:
+# In[223]:
 
 
 # Read in the datafile using Pandas
@@ -142,7 +142,7 @@ df = pd.DataFrame(pd.read_csv('train.csv')) # read in the file # # TODO # #
 # !wget https://github.com/rsk2327/CIS519/blob/master/train.csv
 
 
-# In[213]:
+# In[370]:
 
 
 def getMissingRatio(inputDf):
@@ -170,10 +170,10 @@ def getMissingRatio(inputDf):
     
     return outDf
 
-# display(getMissingRatio(df))
+#display(getMissingRatio(df))
 
 
-# In[210]:
+# In[367]:
 
 
 def convertToBinary(inputDf, feature):
@@ -192,23 +192,23 @@ def convertToBinary(inputDf, feature):
     # check if it is binary by getting the number of total count of the possible values 
     numOfValue = len(inputDf.loc[:, feature].dropna().unique())
     if numOfValue != 2:
-        return "Not a Binary" # return a error message
+        return None # return a error message
     # if it is binary, then continue
     outDf = inputDf.copy() # make a copy so that we are not modifying the original dataframe
-    # get the first value as the seed and compare it with the rest of following value resulting in bolean list, then convert to numerical datatypes
-    binaryList = (outDf.loc[:, feature] == outDf.loc[0, feature]).astype('int32')
-    binaryList.where(~outDf.loc[:, feature].isnull(), np.nan)
-    print(binaryList)
+    # get a particular value as the seed and compare it with the rest of following value resulting in bolean list, 
+    # then convert to numerical datatypes. I also filter out the NaN before I get the seed.
+    binaryList = (outDf.loc[:, feature] == outDf.dropna().reset_index(drop = True).loc[0, feature]).astype('int')
+    binaryList = binaryList.where(~(outDf.loc[:, feature].isnull()), np.nan)
     outDf.loc[:, feature] = binaryList # replace the target feature with the numerical 0-1 representation
     return outDf
 
-# display(convertToBinary(df,'Cabin'))
+#convertToBinary(df, 'Sex')
 
 
-# In[214]:
+# In[366]:
 
 
-def addDummyFeatures(inputDf, feature):
+def addDummyVariables(inputDf, feature):
     """
     Create a one-hot-encoded version of a categorical feature and append it to the existing 
     dataframe.
@@ -233,10 +233,10 @@ def addDummyFeatures(inputDf, feature):
     oneHotList = inputDf.loc[:, feature].dropna().unique() # also remove NaN
     for newFeature in oneHotList: # loop through all possible new features
         newFeatureCol = (inputDf.loc[:, feature] == newFeature).astype('int32') # compare with target feature to produce a list of binary values
-        outDf[newFeature] = newFeatureCol # append to the output dataframes
+        outDf[feature + '_' + newFeature] = newFeatureCol # append to the output dataframes
         
     outDf = outDf.drop(columns = feature) # remove the target feature since it was already replaced by new dummy features
     return outDf
 
-#addDummyFeatures(df,'Ticket')
+#addDummyVariables(df,'Cabin')
 
