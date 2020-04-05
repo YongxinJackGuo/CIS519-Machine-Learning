@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e70a11c6-8cc8-4757-831d-137636120142" name="Default Changelist" comment="" />
+    <list default="true" id="e70a11c6-8cc8-4757-831d-137636120142" name="Default Changelist" comment="example created">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586070846836</updated>
       <workItem from="1586070849030" duration="2036000" />
-      <workItem from="1586072929223" duration="867000" />
+      <workItem from="1586072929223" duration="1247000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1586072414621</created>
@@ -177,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586073782961</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="example created">
+      <created>1586073846728</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586073846728</updated>
+    </task>
+    <task id="LOCAL-00006" summary="example created">
+      <created>1586074008353</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586074008353</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
