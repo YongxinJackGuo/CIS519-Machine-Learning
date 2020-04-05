@@ -41,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.hero_ram_test_2">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Final Project RL Locomotion" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,6 +86,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="hero_ram_test_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Final Project RL Locomotion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hero_ram_test_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Final Project RL Locomotion" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,9 +130,11 @@
     <list>
       <item itemvalue="Python.hero_ram_test" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.hero_ram_test_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hero_ram_test_2" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
