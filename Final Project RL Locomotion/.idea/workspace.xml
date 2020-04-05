@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e70a11c6-8cc8-4757-831d-137636120142" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Final Project RL Locomotion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartpole_test_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -134,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586070846836</updated>
       <workItem from="1586070849030" duration="2036000" />
-      <workItem from="1586072929223" duration="295000" />
+      <workItem from="1586072929223" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1586072414621</created>
@@ -143,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586072414621</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project created">
+      <created>1586073279685</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586073279685</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
