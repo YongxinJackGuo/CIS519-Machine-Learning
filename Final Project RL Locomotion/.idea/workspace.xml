@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e70a11c6-8cc8-4757-831d-137636120142" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW3/HW3.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW6/hw6_skeleton.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/hw6_skeleton.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,6 +68,9 @@
       <module name="Final Project RL Locomotion" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -110,6 +112,9 @@
       <module name="Final Project RL Locomotion" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -173,6 +178,7 @@
       <updated>1586070846836</updated>
       <workItem from="1586070849030" duration="2036000" />
       <workItem from="1586072929223" duration="3672000" />
+      <workItem from="1586557918522" duration="197000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1586072414621</created>
